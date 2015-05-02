@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: googleapi.APIManagerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.555 sec <<< FAILURE! - in googleapi.APIManagerTest
+testGetAccessRefreshToken(googleapi.APIManagerTest)  Time elapsed: 3.429 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at googleapi.APIManager.<init>(APIManager.java:43)
+	at googleapi.APIManagerTest.setUp(APIManagerTest.java:17)
+

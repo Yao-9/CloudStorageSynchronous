@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: googleapi.GoogleAPITest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.114 sec <<< FAILURE! - in googleapi.GoogleAPITest
+testCreateCredentialWithAccessCode(googleapi.GoogleAPITest)  Time elapsed: 0.113 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at googleapi.GoogleAPITest.testCreateCredentialWithAccessCode(GoogleAPITest.java:27)
+

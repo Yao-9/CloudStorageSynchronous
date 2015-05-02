@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: main.SyncControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.104 sec <<< FAILURE! - in main.SyncControllerTest
+testNewAccHandler(main.SyncControllerTest)  Time elapsed: 0.098 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at googleapi.APIManager.<init>(APIManager.java:43)
+	at main.SyncController.newAccHandler(SyncController.java:39)
+	at main.SyncControllerTest.testNewAccHandler(SyncControllerTest.java:25)
+
